@@ -50,7 +50,7 @@ header .logo img {
     height: calc(100vh - 56px); /* Adjust to height minus header */
 }
 
-.hero h1 {
+.hero h2 {
     font-size: 48px;
     font-weight: bold;
 }
