@@ -1,0 +1,74 @@
+body {
+    background-color: #282828;
+    color: white;
+}
+
+.btn {
+    color: #F04451;
+    background-color: transparent;
+    border: none;
+}
+
+.form-control {
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+.form-check-label {
+    color: #ccc;
+}
+
+hr {
+    border-color: #444;
+}
+
+a {
+    color: #fff;
+}
+.footer {
+    background-color: #343849;
+    padding: 50px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo-icon {
+    color: #ff0000;
+    margin-right: 10px;
+}
+.nav-link {
+    color: #ffffff;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+.social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 15px;
+}
+.bottom-links {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.bottom-links a {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    margin-right: 20px;
+}
+.copyright {
+    opacity: 0.3;
+}
+.chicken-img {
+    position: relative;
+    bottom: -50px;
+    right: 10px;
+    width: 170px;
+    height: auto;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYSPNET</title>
+    <link rel="stylesheet" href="style_register.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <link href="boostrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #343849;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">О проекте</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Возможности</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Карточки</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Статистика</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="d-flex">
+            <a href="login.html"><button class="btn btn-outline-light me-2">Войти</button></a>
+            <a href="register.html"><button class="btn btn-danger">Регистрация</button></a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <h3 class="text-center mt-5" style=" color: #FFFFFF;">Войти с помощью сервисов:</h3>
+            <div class="d-flex justify-content-around my-3">
+                <img src="images/discord.png" class="d-flex justify-content-center text-start">
+                <img src="images/google.png" class="d-flex justify-content-center text-start">
+                <img src="images/vk.png" class="d-flex justify-content-center text-start">
+                <img src="images/steam.png" class="d-flex justify-content-center text-start">
+            </div>
+            <img src="images/ili.png" class="d-flex justify-content-center text-center mx-auto py-3">
+            <form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Электронная почта" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Пароль" required>
+                </div>
+                <p class="text-end"><a href="" style="text-decoration: none; color: #FFFFFF;">Забыли пароль?</a></p>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="check1">
+                    <label class="form-check-label" for="check1">Чужой компьютер?</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-70 d-flex justify-content-center text-center mx-auto p-3" style="background-color: #F04451; font-size: 1.6rem; border-radius: 10px;">Войти</button>
+                <p class="text-center mt-3" style=" color: #FFFFFF;">Нет аккаунта? <a href="register.html" style="color: #F04451; text-decoration: none;">Зарегистрироваться</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div style="background-color: #343849; color: #FFFFFF;">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="logo">
+                        <a class="logo-icon" href="index.html"><img src="images/Logo2.png"></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5 style="color: rgba(255, 255, 255, 0.3);">Навигация</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="nav-link">Главная</a></li>
+                        <li><a href="#" class="nav-link">О проекте</a></li>
+                        <li><a href="#" class="nav-link">Возможности</a></li>
+                        <li><a href="#" class="nav-link">Карточки</a></li>
+                        <li><a href="#" class="nav-link">Статистика</a></li>
+                        <li><a href="#" class="nav-link">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5 style="color: rgba(255, 255, 255, 0.3);">Разное</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="nav-link">Поддержать проект</a></li>
+                        <li><a href="#" class="nav-link">Благодарности</a></li>
+                        <li><a href="#" class="nav-link">Контакты</a></li>
+                    </ul>
+                    <img src="images/chicken.png" alt="Chicken" class="chicken-img">
+                </div>
+                <div class="col-md-3">
+                    <h5 style="color: rgba(255, 255, 255, 0.3);">Социальные сети</h5>
+                    <div class="social-icons">
+                        <img src="images/socseti.png" style="width: 50px;">
+                    </div>
+                </div>
+            </div>
+            <div class="row bottom-links" style="margin-top: 50px">
+                <div class="col-md-3 text-start">
+                    <span class="copyright float-end">© 2024 Все права защищены</span>
+                </div>
+                <div class="col-md-4 text-end">
+                    <a href="#">Правила пользования</a>
+                </div>
+                <div class="col-md-4 text-end">
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="boostrap/js/bootstrap.bundle.min.js"></script>
+</body>
